@@ -7,7 +7,7 @@ public class StringIntegerConcatenationExample6 {
         int y =200;
         String result = message + x + y;
         System.out.println(result);
-        String result2 = x + y+message;
+        String result2 = x + y + message;
         System.out.println(result2);
 
     }

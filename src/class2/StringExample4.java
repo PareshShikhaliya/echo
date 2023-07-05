@@ -1,9 +1,12 @@
 package class2;
 
 public class StringExample4 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         String firstName = "John";
-        String lastName = "Doe";
+        String lastName = "Shina";
+        System.out.println("firstName= "+firstName);
+        System.out.println("lastName= "+lastName);
 
         // String concatenation using the '+' operator
         String fullName = firstName + " " + lastName;
@@ -13,12 +16,13 @@ public class StringExample4 {
         int length = fullName.length();
         System.out.println("Length of the string: " + length);
 
+
         // Accessing characters in a string
-        char firstChar = fullName.charAt(0);
+        char firstChar = fullName.charAt(9);
         System.out.println("First character: " + firstChar);
 
         // Substring
-        String lastNameSubstring = fullName.substring(5);
+        String lastNameSubstring = fullName.substring(5,fullName.length()-2);
         System.out.println("Last Name Substring: " + lastNameSubstring);
 
         // String to lowercase
@@ -30,7 +34,7 @@ public class StringExample4 {
         System.out.println("Uppercase Name: " + uppercaseName);
 
         // Check if a string contains a specific substring
-        boolean containsSubstring = fullName.contains("Doe");
+        boolean containsSubstring = fullName.contains("INA");
         System.out.println("Contains 'Doe'? " + containsSubstring);
 
         // Replace characters in a string
