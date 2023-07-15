@@ -1,0 +1,13 @@
+Inventory Management System
+
+The system should allow the user to input the number of products in their inventory.
+For each product, the system should prompt the user to enter the following information:
+Product name (string)
+Product quantity (integer)
+After the user has input the product details, the system should display the current inventory, showing each product's name and quantity.
+The system should identify and display any low stock products, defined as products with a quantity less than 5.
+The system should allow the user to update the quantity of a specific product by entering the product name and the new quantity.
+After the update, the system should display the updated inventory, reflecting the changes made.
+This project requires the use of loops to handle multiple products, the Scanner class to read user input, conditionals with if statements to identify low stock products, and arrays to store and manage the product data.
+
+By implementing this project, the user can effectively manage their inventory by inputting product details, checking for low stock items, and updating quantities as needed.

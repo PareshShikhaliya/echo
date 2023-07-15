@@ -9,6 +9,7 @@ public class BreakStatement5 {
             }
             System.out.println("Iteration: " + i);
         }
+        System.out.println("I am out of the loop");
     }
 }
 

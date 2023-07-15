@@ -9,7 +9,7 @@ public class ForLoop2 {
         int iterations = scanner.nextInt();
         scanner.close();
 
-        for (int i = 1; i <= iterations; i++) {
+        for (int i = 1; i <= iterations; i=i+2) {
             System.out.println("Iteration: " + i);
             // Perform some operation for each iteration
         }

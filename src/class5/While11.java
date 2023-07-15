@@ -11,13 +11,14 @@ public class While11 {
         int number;
 
         System.out.println("Enter numbers to calculate the sum (enter -1 to exit):");
+        boolean flag = true;
 
-        while (true) {
+        while (flag) {
             System.out.print("Number: ");
             number = scanner.nextInt();
 
-            if (number == -1) {
-                break;
+            if (number == -10) {
+                flag=false;
             }
 
             total += number;

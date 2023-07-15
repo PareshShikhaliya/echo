@@ -16,7 +16,7 @@ public class BreakStatement6 {
             }
             System.out.println("Checking number: " + number);
         }
-
+        System.out.print("Enter the target number: ");
         scanner.close();
     }
 }
