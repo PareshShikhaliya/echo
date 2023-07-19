@@ -1,9 +1,11 @@
 package class6;
 
-public class TemperatureTracker {
+public class TemperatureTracker5 {
     public static void main(String[] args) {
         // Declare and initialize an array to store temperatures for each day of the week
         double[] weeklyTemperatures = new double[7];
+
+        System.out.println(weeklyTemperatures[0]);
 
         // Assign temperature values to the elements of the array
         weeklyTemperatures[0] = 25.5;

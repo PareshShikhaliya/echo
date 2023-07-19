@@ -7,7 +7,6 @@ public class ArrayExample3 {
         int[] numbers = new int[5];
 
 
-
         // Assign values to the elements individually
         numbers[0] = 1;
         numbers[1] = 2;
