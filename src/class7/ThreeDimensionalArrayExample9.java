@@ -15,9 +15,9 @@ public class ThreeDimensionalArrayExample9 {
         };
 
         // Print the initialized array
-        for (int x = 0; x < sizeX; x++) {
-            for (int y = 0; y < sizeY; y++) {
-                for (int z = 0; z < sizeZ; z++) {
+        for (int x = 0; x < 3; x++) {
+            for (int y = 0; y < 4; y++) {
+                for (int z = 0; z < 2; z++) {
                     System.out.print(myArray[x][y][z] + " ");
                 }
                 System.out.println();
