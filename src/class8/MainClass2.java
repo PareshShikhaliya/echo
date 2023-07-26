@@ -3,7 +3,10 @@ package class8;
 public class MainClass2 {
 
     public static void main(String[] args) {
-        int num = 5;
+        int num = 10;
+
+        int sid = 10;
+        String sname = "virat";
 
         // Call the static method to display the square of the number
         displaySquare(num);

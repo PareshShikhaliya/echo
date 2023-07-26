@@ -14,8 +14,8 @@ public class MainClass7 {
     }
 
     // Method that attempts to modify the primitive variable
-    public static void modifyPrimitive(int value) {
-        value = value * 2;
-        System.out.println("Inside method: value = " + value);
+    public static void modifyPrimitive(int number) {
+        number = number * 2;
+        System.out.println("Inside method: value = " + number);
     }
 }

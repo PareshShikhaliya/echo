@@ -2,7 +2,8 @@ package class8;
 
 public class MainClass5 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int numInt = 5;
         double numDouble = 2.5;
 
@@ -27,9 +28,10 @@ public class MainClass5 {
 
     // Method overloading based on the type of argument
 
-    public static int calculateSquare(int number) {
+    public static int main(int number) {
         return number * number;
     }
+
 
     public static double calculateSquare(double number) {
         return number * number;
@@ -41,7 +43,8 @@ public class MainClass5 {
         return number1 + number2;
     }
 
-    public static int calculateSum(int number1, int number2, int number3) {
+    public static int calculateSum(int number1, int number2, int number3)
+    {
         return number1 + number2 + number3;
     }
 

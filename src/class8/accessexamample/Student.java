@@ -5,12 +5,23 @@ package class8.accessexamample;
     int age;
     private String rollNumber;
 
+     public static String schoolName = "CodeGym";
+
     // Constructor with parameters
     public Student(String name, int age, String rollNumber) {
         this.name = name;
         this.age = age;
         this.rollNumber = rollNumber;
     }
+
+     public Student(String name, int age) {
+         this.name = name;
+         this.age = age;
+     }
+
+     public Student() {
+
+     }
 
     // Getter method for name
     public String getName() {
