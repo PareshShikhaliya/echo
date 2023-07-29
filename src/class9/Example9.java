@@ -22,12 +22,13 @@ public class Example9 {
         System.out.println("Last index of \"awe\": " + lastIndexOfAwe);
 
         // replace(char oldChar, char newChar)
+        str1= "Pareash";
         String replacedStr = str1.replace('a', 'A');
         System.out.println("Replaced string: " + replacedStr);
         System.out.println("original string: " + str1);
 
         // split(String regex)
-        String[] words = str1.split(" ");
+        String[] words = str1.split("");
         for (String word : words) {
             System.out.println(word);
         }
@@ -37,7 +38,7 @@ public class Example9 {
         System.out.println("Concatenated string: " + concatenatedStr);
 
         // valueOf(int i)
-        int i = 42;
+        double i = 42.0;
         String iStr = String.valueOf(i);
         System.out.println("String representation of i: " + iStr);
     }

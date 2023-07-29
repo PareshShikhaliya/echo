@@ -1,10 +1,10 @@
-package class8.accessexamample;
+package class8.outside;
 
  public class Student
  {
-    protected String name;
-    int age;
-    private String rollNumber;
+     public String name;
+    public int age;
+    public String rollNumber;
 
      public static String schoolName = "CodeGym";
 
@@ -53,5 +53,5 @@ package class8.accessexamample;
     public void setRollNumber(String rollNumber) {
         this.rollNumber = rollNumber;
     }
-}
 
+}
