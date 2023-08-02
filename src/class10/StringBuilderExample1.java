@@ -9,6 +9,7 @@ public class StringBuilderExample1 {
         sb.append("!");
         sb.append("Paresh");
         String result = sb.toString();
+        System.out.println(sb);
         System.out.println(result);
     }
 }

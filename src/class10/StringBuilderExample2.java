@@ -6,7 +6,7 @@ public class StringBuilderExample2 {
 
         // Append method
         sb.append(" is easy to use!");
-        System.out.println("Append: " + sb.toString());
+        System.out.println("Append: " + sb);
 
         // Insert method
         sb.insert(5, "able ");
@@ -33,7 +33,7 @@ public class StringBuilderExample2 {
         System.out.println("LastIndexOf: " + index2);
 
         // CharAt method
-        char ch = sb.charAt(5);
+        char ch = sb.charAt(3);
         System.out.println("CharAt: " + ch);
 
         // Substring method
