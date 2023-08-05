@@ -1,14 +1,14 @@
 The "Grade Management System" project is a simple program that allows users to input and manage
- student grades. It utilizes loops, data types, the Scanner class, conditionals with if statements, and arrays.
+ student2 grades. It utilizes loops, data types, the Scanner class, conditionals with if statements, and arrays.
 
 Here's how the program requirement:
 
 The user is prompted to enter the number of students.
 An array of integers, grades, is created with a size based on the number of students.
-The program then prompts the user to input the grades for each student, which are stored in the grades array.
+The program then prompts the user to input the grades for each student2, which are stored in the grades array.
 The program calculates the average grade by summing up all the grades and dividing by the number of students.
 It finds the highest and lowest grades by iterating through the grades array and comparing each grade to the current highest and lowest grades.
-The program determines whether any student has failed by checking if any grade in the grades array is less than 40.
+The program determines whether any student2 has failed by checking if any grade in the grades array is less than 40.
 Finally, the program displays the average grade, highest grade, lowest grade, and whether any students have failed.
 This project provides a basic framework for a grade management system and demonstrates how various programming concepts, such as loops, data types, the Scanner class, conditionals, and arrays, can be combined to build a functional program.
 
