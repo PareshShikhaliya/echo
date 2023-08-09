@@ -29,26 +29,29 @@ class Student2 {
     public int hashCode() {
         return Objects.hash(id, name, age);
     }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                '}';
-    }
+//
+//    @Override
+//    public String toString() {
+//        return "Student{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                ", age=" + age +
+//                '}';
+//    }
 }
 
 public class HashCodeExampleWithOverride4 {
     public static void main(String[] args) {
-        Student2 student21 = new Student2(1, "John Doe", 20);
-        Student2 student2 = new Student2(1, "John Doe", 20); // Duplicate of student1
 
-        System.out.println("Hash Code for student1: " + student21.hashCode());
+        Student2 student1 = new Student2(1, "John Doe", 20);
+        Student2 student2 = new Student2(1, "John Doe", 20);
+
+
+
+        System.out.println("Hash Code for student1: " + student1.hashCode());
         System.out.println("Hash Code for student2: " + student2.hashCode());
 
         // Check equality using equals()
-        System.out.println("student1 equals student2: " + student21.equals(student2));
+        System.out.println("student1 equals student2: " + student1.equals(student2));
     }
 }

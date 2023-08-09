@@ -3,7 +3,8 @@ package class11;
 class Bird {
     protected String species;
 
-    public Bird(String species) {
+    public Bird(String species)
+    {
         this.species = species;
     }
 

@@ -62,7 +62,8 @@ class BankAccount {
     }
 
     @Override
-    public String toString() {
+    public String toString()
+    {
         return "Account Number: " + accountNumber + ", Customer Name: " + customerName
                 + ", Balance: $" + balance + ", Account Type: " + accountType;
     }
@@ -96,7 +97,8 @@ public class Bank1 {
     }
 
     public BankAccount findAccountByNumber(int accountNumber) {
-        for (int i = 0; i < numCustomers; i++) {
+        for (int i = 0; i < numCustomers; i++)
+        {
             if (accounts[i].getAccountNumber() == accountNumber) {
                 return accounts[i];
             }
@@ -132,6 +134,7 @@ public class Bank1 {
                 String accountType = scanner.nextLine().toLowerCase(); // Convert to lowercase
                 BankAccount newAccount = new BankAccount(accountNumber, customerName, balance, accountType);
                 bank1.addAccount(newAccount);
+
             } else if (choice == 2) {
                 bank1.displayAccounts();
             } else if (choice == 3) {
@@ -140,7 +143,8 @@ public class Bank1 {
                 System.out.print("Enter Deposit Amount: ");
                 double depositAmount = scanner.nextDouble();
                 BankAccount depositAccount = bank1.findAccountByNumber(depositAccountNumber);
-                if (depositAccount != null) {
+                if (depositAccount != null)
+                {
                     depositAccount.deposit(depositAmount);
                 } else {
                     System.out.println("Account not found.");
