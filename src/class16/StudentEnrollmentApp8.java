@@ -59,10 +59,12 @@ class Student {
     }
 }
 
-class EnrollmentSystem {
+class EnrollmentSystem
+{
     private Set<Student> enrolledStudents;
 
-    public EnrollmentSystem() {
+    public EnrollmentSystem()
+    {
         enrolledStudents = new HashSet<>();
     }
 
@@ -70,11 +72,13 @@ class EnrollmentSystem {
         enrolledStudents.add(student);
     }
 
-    public void removeStudent(int studentID) {
+    public void removeStudent(int studentID)
+    {
         enrolledStudents.removeIf(student -> student.getStudentID() == studentID);
     }
 
-    public void listEnrolledStudents() {
+    public void listEnrolledStudents()
+    {
         System.out.println("Enrolled Students:");
         for (Student student : enrolledStudents) {
             System.out.println(student);

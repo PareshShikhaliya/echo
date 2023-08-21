@@ -4,10 +4,10 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class SetExample1 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Create a set
         Set<String> fruits = new HashSet<>();
-
         // Add elements to the set
         fruits.add("Apple");
         fruits.add("Banana");

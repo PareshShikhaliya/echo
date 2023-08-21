@@ -5,12 +5,14 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
 
-class UserProfile {
+class UserProfile
+{
     private String username;
     private String bio;
     private Set<UserProfile> followers;
 
-    public UserProfile(String username, String bio) {
+    public UserProfile(String username, String bio)
+    {
         this.username = username;
         this.bio = bio;
         this.followers = new HashSet<>();
@@ -41,7 +43,8 @@ class UserProfile {
     }
 }
 
-class FollowerSystem {
+class FollowerSystem
+{
     private Map<String, UserProfile> userProfiles;
 
     public FollowerSystem() {

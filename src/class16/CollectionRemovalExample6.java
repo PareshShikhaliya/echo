@@ -18,7 +18,7 @@ public class CollectionRemovalExample6 {
         System.out.println("Original list: " + numbers);
         for (Integer num : numbers) {
             if (num == 2) {
-                numbers.remove(num); // Causes ConcurrentModificationException
+                //numbers.remove(num); // Causes ConcurrentModificationException
             }
         }
 
