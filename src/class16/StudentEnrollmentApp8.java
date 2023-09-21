@@ -3,7 +3,8 @@ package class16;
 import java.util.HashSet;
 import java.util.Set;
 
-class Student {
+class Student
+{
     private int studentID;
     private String name;
     private int age;

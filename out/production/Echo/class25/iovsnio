@@ -1,0 +1,27 @@
+Java NIO (New I/O):
+
+Buffered: Uses buffers (e.g., ByteBuffer) to read and write data efficiently, reducing the number of system calls.
+
+Channels: Uses channels (e.g., FileChannel) for I/O operations, offering more control and features like file position manipulation.
+
+Non-blocking: Designed for non-blocking I/O operations, allowing you to perform other tasks while waiting for I/O to complete.
+
+Selector: Includes a Selector class for managing multiple channels with a single thread, suitable for handling many connections concurrently.
+
+Performance: More efficient for high-throughput scenarios and concurrent connections, making it suitable for high-performance applications.
+
+Complexity: Can be more complex due to buffers, channels, and selectors, requiring a deeper understanding of these concepts.
+
+Java IO (Input/Output):
+
+Non-Buffered: Uses byte arrays directly for reading and writing data.
+
+Streams: Uses traditional input and output streams (e.g., FileInputStream and FileOutputStream) for I/O operations.
+
+Blocking: Blocking by default, meaning operations pause until complete, potentially impacting responsiveness.
+
+No Selector: Lacks built-in support for selectors, which makes handling multiple connections less efficient without multiple threads.
+
+Performance: Simpler and more straightforward for basic I/O tasks but may be less efficient in high-throughput or concurrent scenarios.
+
+Simplicity: Easier for simple I/O tasks, making it accessible to beginners.
