@@ -37,12 +37,12 @@ public class FileExample4 {
         System.out.println("File size (in bytes): " + fileSize);
 
         // Create a new directory
-        File newDirectory = new File("new_directory");
+        File newDirectory = new File("C:/Users/pares/IdeaProjects/new_directory");
         boolean directoryCreated = newDirectory.mkdir();
         System.out.println("Directory created: " + directoryCreated);
 
         // Create a new file
-        File newFile = new File("new_directory/new_file.txt");
+        File newFile = new File("C:/Users/pares/IdeaProjects/new_directory/new_file.txt");
         try {
             boolean fileCreated = newFile.createNewFile();
             System.out.println("File created: " + fileCreated);
@@ -50,12 +50,12 @@ public class FileExample4 {
             e.printStackTrace();
         }
 
-        // Delete a file
-//        boolean fileDeleted = newFile.delete();
-//        System.out.println("File deleted: " + fileDeleted);
-//
-//        // Delete a directory
-//        boolean directoryDeleted = newDirectory.delete();
-//        System.out.println("Directory deleted: " + directoryDeleted);
+         //Delete a file
+        boolean fileDeleted = newFile.delete();
+        System.out.println("File deleted: " + fileDeleted);
+
+        // Delete a directory
+        boolean directoryDeleted = newDirectory.delete();
+        System.out.println("Directory deleted: " + directoryDeleted);
     }
 }

@@ -5,7 +5,8 @@ import java.io.*;
 
 
 public class ObjectSerializationExample1 {
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         // Create an object to serialize
         Person person = new Person("John Doe", 30);
 
