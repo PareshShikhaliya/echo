@@ -30,12 +30,13 @@ public class LocalDateExample10 {
         DayOfWeek dayOfWeek = date.getDayOfWeek();
         System.out.println("Day of Week: " + dayOfWeek);
 
+        System.out.println("current set Date: " + date);
 
 
         // Perform date calculations
         LocalDate updatedDate = date.plusDays(10)
                 .plusMonths(2)
-                .minusYears(-1);
+                .minusYears(1);
         System.out.println("Updated Date: " + updatedDate);
     }
 }

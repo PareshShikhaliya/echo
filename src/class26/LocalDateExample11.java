@@ -20,7 +20,8 @@ public class LocalDateExample11 {
         System.out.println("Length of Year: " + lengthOfYear);
 
         // Check if the date is before another date
-        LocalDate otherDate = LocalDate.of(2023, 12, 31);
+        date = LocalDate.of(2023, 11, 01);
+        LocalDate otherDate = LocalDate.of(2023, 10, 01);
         boolean isBefore = date.isBefore(otherDate);
         System.out.println("Is Before? " + isBefore);
 

@@ -9,11 +9,11 @@ public class LocalDateExample9 {
         System.out.println("Current Date: " + currentDate);
 
         // Create a specific date
-        LocalDate specificDate = LocalDate.of(2023, 1, 31);
+        LocalDate specificDate = LocalDate.of(2023, 12, 31);
         System.out.println("Specific Date: " + specificDate);
 
         // Add 30 days to the specific date
-        LocalDate updatedDate = specificDate.plusDays(30);
+        LocalDate updatedDate = specificDate.plusDays(1);
         System.out.println("Updated Date: " + updatedDate);
 
         // Subtract 2 weeks from the updated date

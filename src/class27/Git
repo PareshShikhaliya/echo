@@ -1,0 +1,83 @@
+
+Get-ChildItem -Directory -Force -Path "C:\Users\pares\IdeaProjects\Echo" | Where-Object { $_.Attributes -match "Hidden" }
+
+git init: Initializes a new Git repository in the current directory.
+
+git init
+git clone [repository URL]: Creates a copy of a remote Git repository on your local machine.
+
+
+git clone https://github.com/username/repo.git
+git add [file(s)]: Stages changes for commit.
+
+
+git add file.txt            # Stage a specific file
+git add .                   # Stage all changes in the current directory
+git commit -m "[commit message]": Commits the staged changes to the repository with a descriptive message.
+
+
+git commit -m "Add new feature"
+git status: Shows the current status of your working directory.
+
+
+git status
+git pull: Fetches changes from a remote repository and merges them into your current branch.
+
+
+git pull origin main        # Fetch and merge changes from 'main' branch of the remote named 'origin'
+git push: Pushes your local commits to a remote repository.
+
+
+git push origin main        # Push commits from 'main' branch to the remote named 'origin'
+git branch: Lists all branches in the repository.
+
+
+git branch
+git checkout [branch name]: Switches to a different branch.
+
+
+git checkout feature-branch
+git merge [branch name]: Merges changes from one branch into the current branch.
+
+
+git merge feature-branch
+git fetch: Fetches changes from a remote repository but does not merge them into your local branch.
+
+
+git fetch origin           # Fetch changes from the remote named 'origin'
+git log: Displays a log of all commits in the current branch.
+
+
+git log
+git diff: Shows the differences between the working directory and the last commit.
+
+
+git diff
+git stash: Temporarily saves changes that are not ready to be committed.
+
+
+git stash
+git remote -v: Lists remote repositories that your local repository is connected to.
+
+
+git remote -v
+git remote add [name] [repository URL]: Adds a remote repository with a specified name and URL.
+
+
+git remote add myrepo https://github.com/username/myrepo.git
+git remote remove [name]: Removes a remote repository.
+
+
+git remote remove myrepo
+git branch -d [branch name]: Deletes a branch.
+
+
+git branch -d feature-branch
+git reset [commit]: Moves the current branch and HEAD to a specified commit, resetting the commit history.
+
+git reset HEAD~3           # Move back 3 commits
+git tag [tag name]: Creates a lightweight tag for a specific commit.
+
+
+git tag v1.0              # Create a tag named 'v1.0'
+These examples should help you understand how to use these Git commands for various version control tasks. Remember to replace file names, branch names, and URLs with your specific project details when working with your own Git repositories.

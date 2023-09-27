@@ -18,7 +18,9 @@ public class Calendar7 {
         System.out.println("Current Date: " + month + "/" + day + "/" + year);
 
         // Manipulate the date
-        calendar.add(Calendar.DAY_OF_MONTH, -7); // Add 7 days
+        calendar.add(Calendar.DAY_OF_MONTH, 7); // Add 7 days
+        calendar.add(Calendar.YEAR, 2); // Add 7 days
+
         year = calendar.get(Calendar.YEAR);
         month = calendar.get(Calendar.MONTH) + 1;
         day = calendar.get(Calendar.DAY_OF_MONTH);
